@@ -14,15 +14,10 @@ Package.onUse(function(api) {
   api.versionsFrom('1.3-beta.11');
   api.use('ecmascript');
   api.use('mongo');
-  api.use('templating');
   api.use('react-meteor-data');
 
   api.use('meteorhacks:flow-router@1.17.2', 'client', {weak: true});
   api.use('kadira:flow-router@2.6.0', 'client', {weak: true});
-
-  api.addFiles([
-    'client/style-guide.html'
-  ], 'client');
 
   api.mainModule('client/styleGuide.js', 'client');
   api.export('ReactStyleGuide');
