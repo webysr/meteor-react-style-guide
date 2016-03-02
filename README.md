@@ -59,4 +59,4 @@ styleGuide.addComponent(FavouriteNumber, {
 
 ## License
 
-[MIT](../blob/master/LICENSE)
+[MIT](../master/LICENSE)
