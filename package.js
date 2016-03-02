@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'jschlieber:react-style-guide',
+  name: 'webysr:react-style-guide',
   version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'An auto generated style guide for your react components using meteor and flow router',
