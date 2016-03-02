@@ -1,6 +1,10 @@
 # An auto generated Style Guide for your React Components as a Meteor package
 
-## NPM Dependencies
+## Prerequisites
+
+### NPM Dependencies
+
+Add a package.json file to your project root either manually or with `npm init`.
 
 You need to install the following node modules via npm:
 
@@ -10,11 +14,11 @@ npm install --save react react-dom react-mounter material-ui react-tap-event-plu
 
 Including them directly in the package caused problems related to having duplicate versions of react.
 
-## Prerequisites
+### Initialization
 
 On the client you need to
 
-```
+```javascript
 import reactTapEventPlugin from 'react-tap-event-plugin';
 
 // Needed for onTouchTap
@@ -28,7 +32,7 @@ reactTapEventPlugin();
 
 To add your components to the style guide do the following on the client:
 
-```
+```javascript
 import ReactStyleGuide from 'meteor/webysr:react-style-guide';
 import ChannelCard from '../channels/components/ChannelCard.jsx';
 import ChannelList from '../channels/components/ChannelList.jsx';
