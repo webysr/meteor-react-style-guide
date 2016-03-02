@@ -32,7 +32,7 @@ export default class StyleGuideRouter {
     });
   }
 
-  addRoute(component, initialProps, customPath) {
+  addRoute(component, initialProps) {
 
     let componentName = component.displayName;
     let path = '/' + componentName;
