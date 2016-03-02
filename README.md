@@ -1,4 +1,6 @@
-# An auto generated Style Guide for your React Components as a Meteor package
+# ReactStyleGuide
+
+An auto generated style guide for React components in your Meteor app.
 
 ## Prerequisites
 
