@@ -10,14 +10,6 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Npm.depends({
-  "material-ui": "0.15.0-alpha.1",
-  "react": "0.14.7",
-  "react-dom": "0.14.7",
-  "react-mounter": "1.1.0",
-  "react-tap-event-plugin": "0.2.2"
-});
-
 Package.onUse(function(api) {
   api.versionsFrom('1.3-beta.11');
   api.use('ecmascript');
@@ -33,12 +25,12 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.mainModule('client/styleGuide.js', 'client');
-  api.export('ReactStyleguide');
+  api.export('ReactStyleGuide');
 });
 
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('jschlieber:react-style-guide');
+  api.use('webysr:react-style-guide');
   api.addFiles('test/test.js');
 });
