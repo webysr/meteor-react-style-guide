@@ -28,6 +28,14 @@ import reactTapEventPlugin from 'react-tap-event-plugin';
 reactTapEventPlugin();
 ```
 
+### Roboto Font
+
+Material UI uses Google's Roboto Font. You can add it to your project's HTML if you wish.
+
+```html
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+```
+
 ## Configuration
 
 To add your components to the style guide do the following on the client:
