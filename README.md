@@ -44,53 +44,19 @@ To add your components to the style guide do the following on the client:
 
 ```javascript
 import ReactStyleGuide from 'meteor/webysr:react-style-guide';
-import ChannelCard from '../channels/components/ChannelCard.jsx';
-import ChannelList from '../channels/components/ChannelList.jsx';
+import HelloName from './HelloName.jsx';
+import FavouriteNumber from './FavouriteNumber.jsx';
 
 const styleGuide = new ReactStyleGuide();
 
-/**
- * Style Guide for the ChannelCard Component
- */
-styleGuide.addComponent(ChannelCard, {
-    channel: {
-        _id: '2o439AHBRJ4083tgsh',
-        name: 'My Test Channel'
-    },
-    settingsHref: '/channels/2o439AHBRJ4083tgsh',
-    owner: 'Jürgen Schlieber',
-    onTrashChannel(channel) {
-
-        alert('onTrashChannel called with ', channel);
-    }
-});
-
-/**
- * Style Guide for the ChannelList Component
- */
-styleGuide.addComponent(ChannelList, {
-    channels: [
-        {
-            _id: '2o439AHefBRJ4083tgsh',
-            name: 'My first Channel',
-            owner: '2o439AHBRJ4083tgsh'
-        }, {
-            _id: '2o439AHsdgBRJ4083tgsh',
-            name: 'My second Channel',
-            owner: '2o439AHBRJ4083tgsh'
-        }, {
-            _id: '2o439AHhreBRJ4083tgsh',
-            name: 'My third Channel',
-            owner: '2o439AHBRJ4083tgsh'
-        }, {
-            _id: '2o439AHweghBRJ4083tgsh',
-            name: 'My forth Channel',
-            owner: '2o439AHBRJ4083tgsh'
-        }
-    ]
+// pass the component followed by some ingestible props:
+styleGuide.addComponent(HelloName, {name: 'Jürgen'});
+styleGuide.addComponent(FavouriteNumber, {
+  name: 'Leonhard Euler',
+  favouriteNumber: '2,71828 18284 59045 23536 02874 71352 66249 77572 47093 69995 ...'
 });
 ```
 
 ## License
 
-MIT
+[MIT](../blob/master/LICENSE)
