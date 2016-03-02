@@ -1,12 +1,8 @@
 Package.describe({
   name: 'webysr:react-style-guide',
   version: '1.0.0',
-  // Brief, one-line summary of the package.
   summary: 'An auto generated style guide for your react components using meteor and flow router',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
+  git: 'https://github.com/webysr/react-style-guide',
   documentation: 'README.md'
 });
 
