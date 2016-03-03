@@ -1,6 +1,6 @@
 Package.describe({
   name: 'webysr:react-style-guide',
-  version: '1.0.1',
+  version: '1.1.0',
   summary: 'An auto generated style guide for your react components using meteor and flow router',
   git: 'https://github.com/webysr/react-style-guide',
   documentation: 'README.md'
@@ -13,6 +13,10 @@ Package.onUse(function(api) {
   api.use('react-meteor-data@0.2.5');
   api.use('meteorhacks:flow-router@1.17.2', 'client', {weak: true});
   api.use('kadira:flow-router@2.6.0', 'client', {weak: true});
+
+  api.addFiles([
+    'client/styles.css'
+  ], 'client');
 
   api.mainModule('client/styleGuide.js', 'client');
   api.export('ReactStyleGuide');

@@ -74,7 +74,11 @@ const StyleGuideLayout = React.createClass({
           />
           {this.renderMenuItems()}
         </LeftNav>
-        {this.props.yield}
+        <div className="style-guide-wrapper">
+          <div className="style-guide-container">
+            {this.props.yield}
+          </div>
+        </div>
       </div>
     );
   }

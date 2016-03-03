@@ -1,0 +1,26 @@
+.style-guide-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media all and (min-width: 500px) {
+    .style-guide-wrapper {
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .style-guide-wrapper {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .style-guide-wrapper {
+        width: 40%;
+    }
+}
+
+.style-guide-wrapper .style-guide-container {
+    margin: 0 5px;
+}
