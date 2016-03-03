@@ -1,6 +1,6 @@
 # ReactStyleGuide
 
-An auto generated style guide for React components in your Meteor app.
+An auto generated style guide for React components in your Meteor app. This package was written with Meteor 1.3 in mind. It makes use of features that will only be available in this new release. Thus, at the moment you can only use this package with the latest Meteor 1.3-beta version. If you would like to use this package for any previous Meteor version, feel free to file a pull request to the pre-1.3 branch.
 
 ## Prerequisites
 
@@ -56,6 +56,11 @@ styleGuide.addComponent(FavouriteNumber, {
   favouriteNumber: '2,71828 18284 59045 23536 02874 71352 66249 77572 47093 69995 ...'
 });
 ```
+## Demo
+
+[View the Demo](http://react-style-guide-example.meteor.com/)
+
+The demo code can be found at the [ReactStyleGuideExample](https://github.com/webysr/react-style-guide-example) github repo.
 
 ## License
 
