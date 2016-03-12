@@ -62,6 +62,10 @@ styleGuide.addComponent(FavouriteNumber, {
 
 The demo code can be found at the [ReactStyleGuideExample](https://github.com/webysr/react-style-guide-example) github repo.
 
+## Be wiser, Webweiser
+
+Visit my company website for more Information about [Webweiser Software](https://www.webweiser.at). At the moment, there is only a german version available. But there will be an english version soon. I promise! :)
+
 ## License
 
 [MIT](../master/LICENSE)
